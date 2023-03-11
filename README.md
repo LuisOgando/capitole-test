@@ -65,3 +65,12 @@ java -jar build/libs/logandotest.jar
        "price":30.5
     }
     
+ 
+After the service is running you can visit the link to see the documentation:
+
+`http://localhost:8080/swagger-ui/index.html#/`
+
+![alt text](/api-doc.png)
+
+
+    
