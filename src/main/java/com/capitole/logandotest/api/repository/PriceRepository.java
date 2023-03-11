@@ -10,7 +10,6 @@ import java.util.List;
 
 @Repository
 public interface PriceRepository extends JpaRepository<Price, Long> {
-    List<Price> findAll();
 
     @Query(value = "SELECT P " +
             "FROM Price P " +

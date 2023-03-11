@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper()
-interface PriceMapper {
+public interface PriceMapper {
     PriceMapper INSTANCE = Mappers.getMapper(PriceMapper.class);
     PriceResponseDto map(Price from);
 }
