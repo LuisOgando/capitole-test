@@ -2,9 +2,10 @@
 
 This is a test  Java / Gradle / Spring Boot (version 3) application.
 
-The service is just a simple price query REST service. It uses an in-memory database (H2) to store the data.
+The project is a simple price query REST Service. It uses an in-memory database (H2) to store the data.
 
-Notes: All basic security is disabled
+Notes: All basic security is disabled.
+
 The test requirements are in the file `requerimiento_java_test.txt`
 
 
@@ -15,19 +16,19 @@ The test requirements are in the file `requerimiento_java_test.txt`
     git clone https://github.com/LuisOgando/capitole-test.git
     cd capitole-test
 
-there 2 easy way to run the project:
+There are 3 different ways to run this project:
 
-1- Using a docker container, you must have `docker` installed locally.
+1- Using a docker container. You must have `docker` installed locally,
 just run the  `startup` command form the Makefile:
 
 	make statup
 
-2- Using gradle command, you must have `gradle` installed locally. :
+2- Using gradle command:
 
 	gradle clean build
 	gradle bootRun
 
-You can also use the native java command after packaging the project with `gradle assemble`
+3- You can also use the native java command after packaging the project with `gradle assemble`:
 
 ```
 java -jar build/libs/logandotest.jar
@@ -74,3 +75,4 @@ After the service is running you can visit the link to see the documentation:
 
 
     
+
