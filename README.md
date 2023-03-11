@@ -2,9 +2,10 @@
 
 This is a test  Java / Gradle / Spring Boot (version 3) application.
 
-The service is just a simple price query REST service. It uses an in-memory database (H2) to store the data.
+The project is a simple price query REST Service. It uses an in-memory database (H2) to store the data.
 
-Notes: All basic security is disabled
+Notes: All basic security is disabled.
+
 The test requirements are in the file `requerimiento_java_test.txt`
 
 
