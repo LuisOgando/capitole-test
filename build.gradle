@@ -41,6 +41,13 @@ dependencies {
 	testImplementation "org.jeasy:easy-random-core:$easy_random_version"
 }
 
+bootJar {
+	manifest {
+		attributes 'Start-Class': 'com.capitole.logandotest.ApiApplication'
+	}
+	archiveFileName = "${rootProject.name}.jar"
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
